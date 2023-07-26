@@ -2,6 +2,7 @@
     background: #74BC93;
     background: radial-gradient(at center, #74BC93, #2B647E);
     font-family: 'Pacifico', cursive;
+    padding: 0 60px 40px 60px;
 }
 
 h1 {
@@ -43,6 +44,7 @@ h5 {
 
 .fish-and-tips{
     display: flex;
+    justify-content: space-between;
 }
 
 .fish_name, .fish_species, .fish_length, .fish_location, .fish_diet{
@@ -53,7 +55,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 50px;
+    gap: 20px 20px;
     text-align: center;
     color: #4a0460;
     font-size: 20px;
@@ -64,7 +66,7 @@ h5 {
 .tank-tips-and-header{
     display: flex;
     flex-flow: column;
-    margin: 0 40px 0 0;
+    margin: 0 0 0 30px;
     max-width: 40%;
     color:rgb(71, 6, 68);
     text-shadow: 0 0 2px rgb(236, 228, 228);
@@ -74,13 +76,13 @@ h5 {
     font-size: 25px;
     text-align: start center;
     text-indent: 10px;
-    margin: 0 40px 0 0;
 }
 
 .fish_img{
     width: 400px;
-    border-radius: 30%;
+    border-radius: 20%;
     border: 10px solid #6e6991;
+    margin-left: 20px;
 }
 
 .harvestList{
@@ -92,7 +94,6 @@ h5 {
     color: #f79608;
     text-shadow: 0 0 2px black;
     font-size: 25px;
-    padding: 0px 40px 75px 40px;
 }
 
 .scuba-tips{
@@ -107,7 +108,9 @@ h5 {
 #scuba-tips-header {
     color: #bb4e0f;
     text-shadow: 0 0 2px rgb(225, 209, 209);
+    margin-top: 50px;
 }
+
 .harvest-locations{
     padding: 10px 25px 10px 25px;
 }
