@@ -1,0 +1,120 @@
+#container{
+    background: #74BC93;
+    background: radial-gradient(at center, #74BC93, #2B647E);
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: #BE5353;
+    text-shadow: 0 0 4px black ;   
+}
+
+h3 {
+    text-align: center;
+    padding: 0px;
+    margin: 50px;
+    color: #1919ff; 
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 2px rgba(245, 245, 245, 0.929);
+   }
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-bottom: 20px;
+}
+
+h5 { 
+    text-align: center;
+    font-size: 50px;
+    color: #f79608;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-shadow: 0 0 2px black;
+}
+
+.fish-and-tips{
+    display: flex;
+}
+
+.fish_name, .fish_species, .fish_length, .fish_location, .fish_diet{
+    margin: -8px;
+}
+
+.fishList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    color: #4a0460;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 1px rgb(225, 227, 219);
+}
+
+.tank-tips-and-header{
+    display: flex;
+    flex-flow: column;
+    margin: 0 40px 0 0;
+    max-width: 40%;
+    color:rgb(71, 6, 68);
+    text-shadow: 0 0 2px rgb(236, 228, 228);
+}
+
+.tank-tips{
+    font-size: 25px;
+    text-align: start center;
+    text-indent: 10px;
+    margin: 0 40px 0 0;
+}
+
+.fish_img{
+    width: 400px;
+    border-radius: 30%;
+    border: 10px solid #6e6991;
+}
+
+.harvestList{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #f79608;
+    text-shadow: 0 0 2px black;
+    font-size: 25px;
+    padding: 0px 40px 75px 40px;
+}
+
+.scuba-tips{
+    text-align: start center;
+    text-indent: 15px;
+    font-size: 25px;
+    margin: 15px 70px 15px 50px;
+    padding: 10px 0 10px 0;
+    text-shadow: 0 0 1px white;
+}
+
+#scuba-tips-header {
+    color: #bb4e0f;
+    text-shadow: 0 0 2px rgb(225, 209, 209);
+}
+.harvest-locations{
+    padding: 10px 25px 10px 25px;
+}
+
+.harvest_img{
+    width: 300px;
+    border-radius: 20%;
+    border: 5px solid #f79608;
+}
+
